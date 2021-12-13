@@ -53,9 +53,6 @@ class HomeController extends Controller{
          
         if (count($data) > 0) {
             echo "encontrou registro no banco";
-
-var_dump($endereco);
-exit;
         } else {
             $cep = $endereco->cep;
             $logradouro = $cep->logradouro;
